@@ -19,6 +19,25 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+header > h1 {
+  padding: 10px;
+}
+
+header > nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+header > nav > a {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 10px;
 }
 
 /* Containers */
@@ -75,4 +94,21 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+/* About */
+.about {
+  display: flex;
+}
+
+.about div {
+  text-align: left;
+}
+
+/* portfolio */
+.portfolio p {
+  font-size: 14px;
+}
+.portfolio-flex {
+  display: flex;
 }
